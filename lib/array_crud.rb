@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  array = create_an_array()
+  array = create_an_empty_array()
   index = 0
   while index < 4 do
     array.push(index)
