@@ -9,6 +9,7 @@ def create_an_array
     array.push(index)
     index +=1
   end
+  return array
 end
 
 def add_element_to_end_of_array(array, element)
