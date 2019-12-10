@@ -7,7 +7,7 @@ def create_an_array
   index = 0
   while index < 4 do
     array.push(index)
-    array +=1
+    index +=1
   end
 end
 
